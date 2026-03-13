@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import Navbar from './components/navbar'
 import Hero from './components/Hero'
+import TrustedBy from './components/TrustedBy'
+import ContactUs from './components/ContactUs'
+import {Toaster} from 'react-hot-toast'
+import Footer from './components/Footer'
 
 const App = () => {
 
@@ -8,8 +12,12 @@ const App = () => {
 
   return (
   <div className='dark:bg-black relative'>
+    <Toaster/>
     <Navbar theme={theme} setTheme={setTheme}/>
     <Hero/>
+    <TrustedBy/>
+    <ContactUs/>
+    <Footer theme={theme}/>
   </div>
   )
 }
