@@ -6,6 +6,7 @@ import ContactUs from './components/ContactUs'
 import {Toaster} from 'react-hot-toast'
 import Footer from './components/Footer'
 import Services from './components/Services'
+import About from './components/About'
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
     <Toaster/>
     <Navbar theme={theme} setTheme={setTheme}/>
     <Hero/>
+    <About/>
     <TrustedBy/>
     <Services/>
     <ContactUs/>

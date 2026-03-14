@@ -30,6 +30,7 @@ import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
 import security from './X.jpg'
+import logos from './logos.png'
 
 
 export const company_logos = [
@@ -43,6 +44,7 @@ export const company_logos = [
 
 const assets = {
   logo,
+  logos,
   arrow_icon,
   group_profile,
   bgImage1,

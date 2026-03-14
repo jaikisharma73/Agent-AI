@@ -11,21 +11,22 @@ const Footer = ({theme}) => {
     viewport={{once:true}}
     className='bg-slate-49 dark:bg-gray-900 pt-10 sm:pt-10 mt-20 sm:mt-40 px-4 sm:px-10 lg:px-24 xl:px-40'>
         <div className='flex justify-between lg:items-center max-lg:flex-col gap-10'>
-            <div className='space-y-5 text-sm text-gray-700 dark:text-gray-400'>
-                <img src={theme==='dark' ? assets.logo_dark : assets.logo} className='w-32 sm:w-44' alt="" />
+            <div className='space-y-5 h-auto w-auto text-sm text-gray-700 dark:text-gray-400'>
+                <img src={theme==='dark' ? assets.logos : assets.logos} className='h-15 w-auto sm:h-25' alt="" 
+                />
                 <p className='max-w-md'>Need security for an event? We help you hire verified guards and professional bouncers quickly and easily</p>
                 <ul className='flex gap-6'>
-                    <li><a className='hover:text-primary' href="#hero">Home</a></li>
-                    <li><a className='hover:text-primary' href="#services">Services</a></li>
-                    <li><a className='hover:text-primary' href="#contact-us">Hiring</a></li>
+                    <li><a className='hover:text-red-700' href="#hero">Home</a></li>
+                    <li><a className='hover:text-red-700' href="#services">Services</a></li>
+                    <li><a className='hover:text-red-700' href="#contact-us">Hiring</a></li>
                 </ul>
             </div>
             <div className='text-gray-600 dark:text-gray-400'>
-                <h3 className='font-semibold'>Subscribe To Our Agency</h3>
+                <h3 className='font-semibold'>Subscribe To Our BSS-4</h3>
                 <p className='text-sm mt-2 mb-6'>The latest news,articles, and resources, sent to your inbox weekly.</p>
                 <div className='flex gap-2 text-sm'>
                     <h3 className='font-semibold w-50 p-3 text-sm outline-none rounded dark:text-gray-200 bg-transparent '>bss4.secure@gmail.com</h3>
-                    <a href="mailto:example@domain.com" target="_blank"><button className='bg-primary text-white rounded px-6 h-full'>Mail</button></a>
+                    <a href="mailto:example@domain.com" target="_blank"><button className='bg-red-700 text-white rounded px-6 h-full'>Mail</button></a>
                 </div>
 
             </div>

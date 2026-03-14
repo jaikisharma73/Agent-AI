@@ -21,7 +21,7 @@ const Hero = () => {
     transition={{duration:0.8,delay:0.7}}
     viewport={{once:true}}
       className='text-4xl sm:text-5xl md:text-6xl xl:text-[74px] font-medium xl:leading-[95px] max-w-5xl'>Where there is   
-<span className='bg-gradient-to-r from-[#7044E5] to-[#4D8CEE] bg-clip-text text-transparent'> Security </span>there is peace of mind...
+<span className='bg-gradient-to-r from-[#ae1c1c] to-[#4D8CEE] bg-clip-text text-transparent'> Security </span>there is peace of mind...
         </motion.h1>
 
         <motion.p 

@@ -35,12 +35,12 @@ const ContactUs = () => {
     transition={{staggerChildren:0.2}}
     viewport={{once:true}}
     id='contact-us' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
-        <motion.h3 
+        <motion.h1 
         initial={{opacity:0,y:20}}
     whileInView={{opacity:1,y:0}}
     transition={{duration:0.5}}
     viewport={{once:true}}
-        className='font-semibold'>Fill out the form to get hired</motion.h3>
+        className='text-3xl sm:text-5xl font-medium'>Fill out the form to get <span className='bg-gradient-to-r from-[#ae1c1c] to-[#4D8CEE] bg-clip-text text-transparent'> Hired </span></motion.h1>
 
         <motion.form 
         initial={{opacity:0,y:30}}
@@ -73,7 +73,7 @@ const ContactUs = () => {
                 <p className='mb-2 text-sm font-medium' name="message">Your Role</p>
                 <textarea rows={8}  name='message' placeholder='Enter Your Role' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600'/>
             </div>
-            <button type='submit' className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all'>
+            <button type='submit' className='w-max flex gap-2 bg-red-700 text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all'>
                 Submit <img src={assets.arrow_icon} alt="" className='w-3' />
             </button>
         </motion.form>
