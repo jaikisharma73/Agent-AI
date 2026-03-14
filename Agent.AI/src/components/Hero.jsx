@@ -37,7 +37,7 @@ const Hero = () => {
     transition={{duration:0.6,delay:1.5}}
     viewport={{once:true}}
         className='relative'>
-            <img src="src/assets/guard.jpg" className='w-full max-w-9xl' alt="" />
+            <img src={assets.security} className='w-full max-w-9xl' alt="" />
             <img src={assets.bgImage1} className='absolute -top-0 -right-10 sm-top-600 sm:left-90 -z-1 dark:hidden'  alt="" />
         </motion.div>
     </div>
