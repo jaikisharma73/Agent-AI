@@ -6,12 +6,32 @@ import ServiceCard from './ServiceCard'
 const Services = () => {
     const servicesData =[
         {
-            title:'Security Guard',
+            title:'Security Guards',
             description:'Our professional security team keeps your events safe, organized, and stress-free. From crowd control to VIP protection, we deliver reliable security you can trust.',
             icon:assets.ads_icon
         },
         {
             title:'Event Bouncers',
+            description:'We provide strong and professional bouncers to manage entry, control crowds, and maintain order at concerts, parties, weddings, and corporate events.',
+            icon:assets.marketing_icon
+        },
+        {
+            title:'Security Corporate',
+            description:'We provide strong and professional bouncers to manage entry, control crowds, and maintain order at concerts, parties, weddings, and corporate events.',
+            icon:assets.ads_icon
+        },
+        {
+            title:'Office Security',
+            description:'We provide strong and professional bouncers to manage entry, control crowds, and maintain order at concerts, parties, weddings, and corporate events.',
+            icon:assets.marketing_icon
+        },
+        {
+            title:'Residential/Society Security',
+            description:'We provide strong and professional bouncers to manage entry, control crowds, and maintain order at concerts, parties, weddings, and corporate events.',
+            icon:assets.ads_icon
+        },
+        {
+            title:'Industrial Security & Office Boy',
             description:'We provide strong and professional bouncers to manage entry, control crowds, and maintain order at concerts, parties, weddings, and corporate events.',
             icon:assets.marketing_icon
         },

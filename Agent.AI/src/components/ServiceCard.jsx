@@ -13,7 +13,10 @@ const ServiceCard = ({service , index}) => {
                 <div className='flex-1'>
                     <h3 className='font-bold'>{service.title}</h3>
                     <p className='text-sm mt-2'>{service.description}</p>
-
+                    
+                    <a href="https://api.whatsapp.com/send?phone=+919450221034&text=Hey there! I want to Book Security" target="_blank" className='text-sm mt-4 w-50 flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-all'>
+           Book On Whatsapp <img src={assets.arrow_icon} width={8} alt="" />
+          </a>
                 </div>
 
             </div>

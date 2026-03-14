@@ -13,19 +13,19 @@ const Footer = ({theme}) => {
         <div className='flex justify-between lg:items-center max-lg:flex-col gap-10'>
             <div className='space-y-5 text-sm text-gray-700 dark:text-gray-400'>
                 <img src={theme==='dark' ? assets.logo_dark : assets.logo} className='w-32 sm:w-44' alt="" />
-                <p className='max-w-md'>From strategy to execution, we craft digital solutions that move your business forward.</p>
+                <p className='max-w-md'>Need security for an event? We help you hire verified guards and professional bouncers quickly and easily</p>
                 <ul className='flex gap-6'>
                     <li><a className='hover:text-primary' href="#hero">Home</a></li>
                     <li><a className='hover:text-primary' href="#services">Services</a></li>
-                    <li><a className='hover:text-primary' href="#contact-us">Contact Us</a></li>
+                    <li><a className='hover:text-primary' href="#contact-us">Hiring</a></li>
                 </ul>
             </div>
             <div className='text-gray-600 dark:text-gray-400'>
                 <h3 className='font-semibold'>Subscribe To Our Agency</h3>
                 <p className='text-sm mt-2 mb-6'>The latest news,articles, and resources, sent to your inbox weekly.</p>
                 <div className='flex gap-2 text-sm'>
-                    <input type="email" placeholder='Enter your email' className='w-full p-3 text-sm outline-none rounded dark:text-gray-200 bg-transparent border border-gray-300 dark:border-gray-500'/>
-                    <button className='bg-primary text-white rounded px-6'>Subscribe</button>
+                    <h3 className='font-semibold w-50 p-3 text-sm outline-none rounded dark:text-gray-200 bg-transparent '>bss4.secure@gmail.com</h3>
+                    <a href="mailto:example@domain.com" target="_blank"><button className='bg-primary text-white rounded px-6 h-full'>Mail</button></a>
                 </div>
 
             </div>
@@ -35,10 +35,8 @@ const Footer = ({theme}) => {
         <div  className='pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap'>
             <p>Copyright 2026 © Agency.ai - All Right Reserved.</p>
             <div className='flex items-center justify-between gap-4'>
+                <a href="https://www.instagram.com/bss4.secure?igsh=MTZjYWcwNTk0bzR1dw=="><img src={assets.instagram_icon} alt="" /></a>
                 <img src={assets.facebook_icon} alt="" />
-                <img src={assets.twitter_icon} alt="" />
-                <img src={assets.instagram_icon} alt="" />
-                <img src={assets.linkedin_icon} alt="" />
             </div>
         </div>
     </motion.div>
