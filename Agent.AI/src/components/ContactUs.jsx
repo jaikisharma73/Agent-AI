@@ -40,7 +40,7 @@ const ContactUs = () => {
     whileInView={{opacity:1,y:0}}
     transition={{duration:0.5}}
     viewport={{once:true}}
-        className='font-semibold'> Reach out to us</motion.h3>
+        className='font-semibold'>Fill out the form to get hired</motion.h3>
 
         <motion.form 
         initial={{opacity:0,y:30}}
@@ -56,6 +56,13 @@ const ContactUs = () => {
                 </div>
             </div>
             <div>
+                <p className='mb-2 text-sm font-medium'>Your Contact Number</p>
+                <div className='flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600'>
+                    <img src={assets} alt="" />
+                    <input type="number" name='number' placeholder='Enter Your Number'  className='w-full p-3 text-sm outline-none' required />
+                </div>
+            </div>
+            <div>
                 <p className='mb-2 text-sm font-medium'>Email id</p>
                 <div className='flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600'>
                     <img src={assets.email_icon} alt="" />
@@ -63,8 +70,8 @@ const ContactUs = () => {
                 </div>
             </div>
             <div className='sm:col-span-2'>
-                <p className='mb-2 text-sm font-medium' name="message">Message</p>
-                <textarea rows={8}  name='message' placeholder='Enter Your Massege' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600'/>
+                <p className='mb-2 text-sm font-medium' name="message">Your Role</p>
+                <textarea rows={8}  name='message' placeholder='Enter Your Role' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600'/>
             </div>
             <button type='submit' className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103 transition-all'>
                 Submit <img src={assets.arrow_icon} alt="" className='w-3' />
